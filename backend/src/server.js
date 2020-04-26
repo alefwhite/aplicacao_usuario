@@ -1,4 +1,5 @@
 const app = require('./app');
+require('./database/database');
 
 const port = 3333;
 
