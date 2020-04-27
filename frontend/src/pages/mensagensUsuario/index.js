@@ -42,7 +42,7 @@ export default function Login() {
     async function handleDeleteMensagem(id) {
         try {
             await api.delete(`/mensagem/${id}`);
-
+            toastr.success("Sua mensagem foi deletada com sucesso!");
             setMensagens(mensagens.filter(msg => msg._id !== id));
 
        } catch(erro) {
@@ -89,7 +89,7 @@ export default function Login() {
                            Data - {FormatarData(msg.data)}                          
                         </Card.Text>                       
                         <Card.Text>
-                           Mensagem - {msg.mensagem}                          
+                           Mensagem: {msg.mensagem}                          
                         </Card.Text>                       
                         </Card.Body>
                     </Card>                

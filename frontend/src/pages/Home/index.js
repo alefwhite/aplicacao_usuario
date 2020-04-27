@@ -113,7 +113,7 @@ export default function Login() {
                            Data - {FormatarData(msg.data)}                          
                         </Card.Text>                       
                         <Card.Text>
-                           Mensagem - {msg.mensagem}                          
+                           Mensagem: {msg.mensagem}                          
                         </Card.Text>                       
                         </Card.Body>
                     </Card>                
