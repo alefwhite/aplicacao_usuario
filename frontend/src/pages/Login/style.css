@@ -1,0 +1,38 @@
+body {
+    background-color:slategrey;
+}
+.containerForm {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.fundo {
+    width: 100%;
+    max-width: 800px;  
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 3px 59px 1px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 3px 59px 1px rgba(0,0,0,0.66);
+    box-shadow: 0px 3px 59px 1px rgba(0,0,0,0.66);
+
+}
+
+.espacamentoEsquerda {
+    padding-left: 20px;
+}
+
+.espacamentoDireita {
+    padding-right: 20px;
+}

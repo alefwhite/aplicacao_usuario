@@ -14,10 +14,9 @@ module.exports = {
             
             if(!existeEmail) {
                 return res.status(404).json({ message: "E-mail não econtrado!"});
-            }
-                   
-            const { nome } = existeEmail;
-            return res.status(201).json({ message: "Login efetuado com sucesso!", existeEmail });
+            }                   
+            
+            return res.status(200).json({ message: "Login efetuado com sucesso!", existeEmail });
             
         } catch (error) {
             return res.status(404).json({erro: true});
