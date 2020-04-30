@@ -92,12 +92,9 @@ export default function Login() {
             <Jumbotron fluid>
                 <Container>
                     <h1>Bem vindo - {nome.toUpperCase()}</h1><br/>
-                    <div>
+                    <div className="mt-5">
                         <Button variant="info" size="lg" block onClick={handleShow}>Inserir Mensagem</Button>
-                    </div>
-                    <br/>
-
-                    
+                    </div>                    
                 </Container>
             </Jumbotron>
             
