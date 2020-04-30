@@ -56,7 +56,7 @@ export default function Login() {
             
 
         } catch(erro) {
-            alert("Falha ao cadastrar mensagem, tente novamente");
+            toastr.error("Falha ao cadastrar mensagem, tente novamente");
         }
     }
 
